@@ -1,0 +1,25 @@
+.homeColumn {
+    padding-left: 0px;
+    padding-right: 0px; 
+}
+
+.imageContainer {
+    text-align: center;
+    color:black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 94.3vh;
+    -webkit-box-shadow: 10px 0px 24px -9px rgba(46,41,46,1);
+    -moz-box-shadow: 10px 0px 24px -9px rgba(46,41,46,1);
+    box-shadow: 10px 0px 24px -9px rgba(46,41,46,1);
+    /* background-color: #1976d3; */
+    
+}
+
+.imageContainer {
+    
+}

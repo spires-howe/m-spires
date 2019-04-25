@@ -1,0 +1,10 @@
+.bulletPoint {
+    font-weight: bold;
+    font-size: 30px;
+    color: #1976d3;
+}
+
+.bulletText {
+    font-size: 20px;
+    text-align: center;
+}

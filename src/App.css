@@ -1,5 +1,45 @@
-.App {
+body {
+  /* background: url('./assets/background2.jpg'); */
+  /* background-size: cover; */
+}
+
+a:hover {
+  text-decoration: none;
+  color: #1976d3;
+}
+
+a {
+  color: black;
+  font-size: 1.2em;
   text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.selectedNavLink {
+  color: #1976d3 !important;
+}
+
+.nav-link {
+  font-size: 1.3em;
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+/* .navbar-expand-lg .navbar-nav {
+  border-bottom: solid lightgray 1px;
+} */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: #ff1c68;
+  transform-origin: 50% 50%;
 }
 
 .App-logo {
@@ -8,15 +48,20 @@
   pointer-events: none;
 }
 
+.bg-light {
+  background-color: white !important;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  -webkit-box-shadow: 0px 5px 9px -5px rgba(105,104,105,1);
+-moz-box-shadow: 0px 5px 9px -5px rgba(105,104,105,1);
+box-shadow: 0px 5px 9px -5px rgba(105,104,105,1);
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: red;
 }
 
 .App-link {

@@ -1,26 +1,46 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav'; 
 import './App.css';
+import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom"
+import { NavRouting } from './components/nav-routing/nav-routing';
+import { HomeComponent } from './views/home/home';
+import Container from 'react-bootstrap/Container';
+import CompanyFocus from './views/company-focus/company-focus';
+require('dotenv').config();
 
-class App extends Component {
+interface Props {
+
+}
+class App extends React.Component<Props> {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+        <Router>
+          <div> 
+            <Navbar bg="light" expand="lg" sticky='top' >
+            <Nav>
+                <Link to="/" style={{fontSize: '1.5em', marginLeft: 40}}>Sales Development Programs Ltd</Link>
+            </Nav>
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Collapse>
+              <Nav className="ml-auto" style={{marginRight: 40}}>
+                {/* <NavRouting routePath='/home' routeText='Home'/> */}
+                <NavRouting routePath='/company-focus' routeText='Company Focus'/>
+                <NavRouting routePath='/pricing' routeText='About Martin Spires'/>             
+                <NavRouting routePath='/contact' routeText='Testiomonials'/>
+                <NavRouting routePath='/contact' routeText='Enquiries'/>                    
+                                    
+              </Nav>
+              </Navbar.Collapse>
+            </Navbar>
+            <Route exact path="/" render={() => (
+              <Redirect to="/home"/>              
+            )} />
+              <Route path="/home/" component={HomeComponent} />
+              <Route path="/company-focus/" component={CompanyFocus}/>
+          </div>
+        </Router>
+        
     );
   }
 }
