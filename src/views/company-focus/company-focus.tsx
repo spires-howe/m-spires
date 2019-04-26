@@ -17,9 +17,9 @@ export default class CompanyFocus extends React.Component {
                 <Container fluid={true}>
                     <TitleComponent title="Company Focus" alignment='center'/> 
                     <Row>
-                        <Col xl={true}>
+                        <Col xl={{span: 6, offset: 3}}>
                             <div style={{marginTop: 30}}>
-                                <p className='secondaryText'>
+                                <p className='secondaryText' style={{fontSize: 23}}>
                                     Sales Development Programs Ltd provides training solutions to assist its customers to:
                                 </p>
                             </div> 
@@ -49,7 +49,7 @@ export default class CompanyFocus extends React.Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col xl={{span:6, offset:3}}> 
+                        <Col xl={{span:6, offset:3}} className="singleBullet"> 
                             <div>
                                 <span className="bulletPoint">- </span>
                                 <span className="bulletText">

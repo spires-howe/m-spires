@@ -8,3 +8,11 @@
     font-size: 20px;
     text-align: center;
 }
+
+.rightColumn {
+    border-right: 1px solid #1976d3;
+}
+
+.leftColumn {
+    border-left: 1px solid #1976d3
+}
