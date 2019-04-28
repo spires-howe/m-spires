@@ -35,24 +35,6 @@ export default class    SolutionBulletComponent extends React.Component<Props> {
                         </ul>
                     </div>
                 </Col>
-                {/* <Col lg={2}>
-                    <div>
-                        <ul>
-                            <li className="bulletText">
-                                {this.props.secondBullet}
-                            </li>
-                        </ul>
-                    </div>
-                </Col>
-                <Col lg={2} className="rightColumn">
-                    <div>
-                        <ul>
-                            <li className="bulletText">
-                                {this.props.thirdBullet}
-                            </li>
-                        </ul>
-                    </div>
-                </Col> */}
             </Row>
         )
     }

@@ -15,15 +15,15 @@ export default class CompanyFocus extends React.Component {
         return (
             <div>
                 <Container fluid={true}>
-                    <Row>
-                        <Col>
-                            <TitleComponent title="Company Focus" alignment='center' hrColor='black'/> 
+                    <Row style={{marginTop: 30}}>
+                        <Col lg={{span: 6, offset: 3}}>
+                            <TitleComponent title="Company Focus" alignment='left' hrColor='black'/> 
                         </Col>
                     </Row>
                     <Row>
                         <Col xl={{span: 6, offset: 3}}>
                             <div style={{marginTop: 30}}>
-                                <p className='secondaryText' style={{fontSize: 23}}>
+                                <p className='secondaryText' style={{fontSize: 20}}>
                                     Sales Development Programs Ltd provides training solutions to assist its customers to:
                                 </p>
                             </div> 
@@ -73,11 +73,7 @@ export default class CompanyFocus extends React.Component {
                             </div>
                         </Col>
                     </Row>
-                    <Row> 
-                        <Col xl={{span:6, offset:3}}>
-                            <hr style={{backgroundColor: '#1976d3'}}/>
-                        </Col>
-                    </Row>
+                   
                     <Row>
                         <Col xl={{span:6, offset:3}} className="singleBullet"> 
                             <div>
@@ -117,7 +113,7 @@ export default class CompanyFocus extends React.Component {
                         <Row>
                             <Col lg={true}>
                                 <div style={{marginTop: 30}}>
-                                    <p className='secondaryText' style={{fontSize: 25, color: 'white'}}>
+                                    <p className='secondaryText' style={{fontSize: 25, color: 'white', textAlign: 'center'}}>
                                         In order to achieve these business objectives in measureable terms, Sales Development Programs Ltd provides training programs in the following areas:
                                     </p>
                                 </div> 

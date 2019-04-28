@@ -1,5 +1,5 @@
 .secondaryText {
-    text-align: center;
+    /* text-align: center; */
     font-size: 30px;
 }
 
@@ -21,6 +21,7 @@
 .extraCompanyText {
     font-size: 20px;
     font-weight: bold;
+    color: black;
 }
 
 .extraCompanyList {
