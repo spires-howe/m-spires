@@ -15,7 +15,11 @@ export default class CompanyFocus extends React.Component {
         return (
             <div>
                 <Container fluid={true}>
-                    <TitleComponent title="Company Focus" alignment='center'/> 
+                    <Row>
+                        <Col>
+                            <TitleComponent title="Company Focus" alignment='center' hrColor='black'/> 
+                        </Col>
+                    </Row>
                     <Row>
                         <Col xl={{span: 6, offset: 3}}>
                             <div style={{marginTop: 30}}>
@@ -30,7 +34,7 @@ export default class CompanyFocus extends React.Component {
                             <hr style={{backgroundColor: '#1976d3'}}/>
                         </Col>
                     </Row>
-                    <SolutionBulletComponent firstBullet={b1} secondBullet={b2} thirdBullet={b3}/>
+                    <SolutionBulletComponent firstBullet={b8} secondBullet={b9} thirdBullet={b3}/>
                     <Row> 
                         <Col xl={{span:6, offset:3}}>
                             <hr style={{backgroundColor: '#1976d3'}}/>
@@ -42,7 +46,33 @@ export default class CompanyFocus extends React.Component {
                             <hr style={{backgroundColor: '#1976d3'}}/>
                         </Col>
                     </Row>
-                    <SolutionBulletComponent firstBullet={b7} secondBullet={b8} thirdBullet={b9}/>
+                    
+                    <Row>
+                        <Col xl={{span:6, offset:3}} className="singleBullet"> 
+                            <div>
+                                <ul className="listStyle">
+                                    <li className="bulletText">
+                                        <span>
+                                            {b1}
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xl={{span:6, offset:3}} className="singleBullet"> 
+                            <div>
+                                <ul className="listStyle">
+                                    <li className="bulletText">
+                                        <span>
+                                           {b2}     
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </Col>
+                    </Row>
                     <Row> 
                         <Col xl={{span:6, offset:3}}>
                             <hr style={{backgroundColor: '#1976d3'}}/>
@@ -51,10 +81,26 @@ export default class CompanyFocus extends React.Component {
                     <Row>
                         <Col xl={{span:6, offset:3}} className="singleBullet"> 
                             <div>
-                                <span className="bulletPoint">- </span>
-                                <span className="bulletText">
-                                        {b10}
-                                </span>
+                                <ul className="listStyle">
+                                    <li className="bulletText">
+                                        <span>
+                                            {b7}
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xl={{span:6, offset:3}} className="singleBullet"> 
+                            <div>
+                                <ul className="listStyle">
+                                    <li className="bulletText">
+                                        <span>
+                                            {b10}
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
                         </Col>
                     </Row>

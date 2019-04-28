@@ -8,6 +8,7 @@ import { HomeComponent } from './views/home/home';
 import Container from 'react-bootstrap/Container';
 import CompanyFocus from './views/company-focus/company-focus';
 import AboutComponent from './views/about/about';
+import Testimonials from './views/testimonials/testimonials';
 require('dotenv').config();
 
 interface Props {
@@ -28,7 +29,7 @@ class App extends React.Component<Props> {
                 {/* <NavRouting routePath='/home' routeText='Home'/> */}
                 <NavRouting routePath='/company-focus' routeText='Company Focus'/>
                 <NavRouting routePath='/about-martin-spires' routeText='Martin Spires'/>             
-                <NavRouting routePath='/contact' routeText='Testiomonials'/>
+                <NavRouting routePath='/testimonials' routeText='Testiomonials'/>
                 <NavRouting routePath='/contact' routeText='Enquiries'/>                    
                                     
               </Nav>
@@ -40,6 +41,7 @@ class App extends React.Component<Props> {
               <Route path="/home/" component={HomeComponent} />
               <Route path="/company-focus/" component={CompanyFocus}/>
               <Route path="/about-martin-spires/" component={AboutComponent} />
+              <Route path="/testimonials/" component={Testimonials}/>
           </div>
         </Router>
         

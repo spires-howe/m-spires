@@ -14,30 +14,45 @@ export default class    SolutionBulletComponent extends React.Component<Props> {
     render(){
         return (
             <Row>
-                <Col lg={{span: 2, offset: 3}} className="leftColumn">
+                <Col lg={{span: 6, offset: 3}} className="leftColumn">
                     <div>
-                        <span className="bulletPoint">- </span>
-                        <span className="bulletText">
-                                {this.props.firstBullet}
-                        </span>
+                        <ul className="listStyle">
+                            <li className="bulletText">
+                                <span>
+                                    {this.props.firstBullet}
+                                </span>
+                            </li>
+                            <li className="bulletText">
+                                <span>
+                                    {this.props.secondBullet}
+                                </span>
+                            </li>
+                            <li className="bulletText">
+                                <span>
+                                    {this.props.thirdBullet}
+                                </span>
+                            </li>
+                        </ul>
                     </div>
                 </Col>
-                <Col lg={2}>
+                {/* <Col lg={2}>
                     <div>
-                        <span className="bulletPoint">- </span>
-                        <span className="bulletText">
+                        <ul>
+                            <li className="bulletText">
                                 {this.props.secondBullet}
-                        </span>
+                            </li>
+                        </ul>
                     </div>
                 </Col>
                 <Col lg={2} className="rightColumn">
                     <div>
-                        <span className="bulletPoint">- </span>
-                        <span className="bulletText">
+                        <ul>
+                            <li className="bulletText">
                                 {this.props.thirdBullet}
-                        </span>
+                            </li>
+                        </ul>
                     </div>
-                </Col>
+                </Col> */}
             </Row>
         )
     }

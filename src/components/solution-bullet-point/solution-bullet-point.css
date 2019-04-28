@@ -5,14 +5,28 @@
 }
 
 .bulletText {
-    font-size: 20px;
-    text-align: center;
+    /* font-size: 20px;
+    color: black; */
+    /* text-align: center; */
 }
 
 .rightColumn {
-    border-right: 1px solid #1976d3;
+    /* border-right: 1px solid #1976d3; */
 }
 
 .leftColumn {
-    border-left: 1px solid #1976d3
+    /* border-left: 1px solid #1976d3 */
+}
+
+.listStyle {
+    list-style-type: square;
+}
+
+li {
+    color: #1976d3;
+}
+
+.bulletText span {
+    color: black;
+    font-size: 20px;
 }
