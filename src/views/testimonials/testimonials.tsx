@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'; 
 import './testimonials.css';
 import TitleComponent from '../../components/title/title';
+import { FooterComponent } from '../../components/footer/footer';
 
 export default class Testimonials extends React.Component {
     render() {
@@ -77,6 +78,7 @@ export default class Testimonials extends React.Component {
                         </Col>
                     </Row>
                 </Container>
+                <FooterComponent />
             </div>
         )
     }

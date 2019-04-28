@@ -9,6 +9,7 @@ import LogoComponent from '../../components/logo/logo'
 import {b1, b2, b3, b4, b5, b6, b7, b8, b9, b10} from './constants';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+import { FooterComponent } from '../../components/footer/footer';
 
 export default class CompanyFocus extends React.Component {
     render() {
@@ -309,6 +310,7 @@ export default class CompanyFocus extends React.Component {
                         </div>
                     </Container>
                 </div>
+                <FooterComponent />
             </div>   
 
         )
