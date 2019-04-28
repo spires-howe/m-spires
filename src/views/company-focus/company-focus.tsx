@@ -21,10 +21,10 @@ export default class CompanyFocus extends React.Component {
                             <TitleComponent title="Company Focus" alignment='left' hrColor='black'/> 
                         </Col>
                     </Row>
-                    <Row>
+                    <Row style={{marginTop: 20}}>
                         <Col xl={{span: 6, offset: 3}}>
                             <div style={{marginTop: 30}}>
-                                <p className='secondaryText' style={{fontSize: 20}}>
+                                <p className='secondaryText' style={{fontSize: 23}}>
                                     Sales Development Programs Ltd provides training solutions to assist its customers to:
                                 </p>
                             </div> 
