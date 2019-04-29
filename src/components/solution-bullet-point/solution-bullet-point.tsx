@@ -13,8 +13,8 @@ interface Props {
 export default class    SolutionBulletComponent extends React.Component<Props> {
     render(){
         return (
-            <Row>
-                <Col lg={{span: 6, offset: 3}} className="leftColumn">
+            // <Row>
+                // <Col lg={{span: 6, offset: 3}} className="leftColumn">
                     <div>
                         <ul className="listStyle">
                             <li className="bulletText">
@@ -34,8 +34,8 @@ export default class    SolutionBulletComponent extends React.Component<Props> {
                             </li>
                         </ul>
                     </div>
-                </Col>
-            </Row>
+            //     </Col>
+            // </Row>
         )
     }
 }

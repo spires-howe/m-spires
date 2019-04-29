@@ -11,15 +11,12 @@ export default class AboutComponent extends React.Component {
         return (
             <div>
                 <Container fluid={true}>
-                    <Row style={{marginTop: 50}}>
+                    <Row style={{marginTop: 25}}>
                         <Col lg={{offset: 2, span: 6}}> 
                             <TitleComponent title="martin spires" hrColor='black' alignment='left'/>
                         </Col>
                     </Row>
                     <Row style={{marginTop: 30}}>
-                        {/* <Col lg={2}> 
-                            <img src={require('../../assets/images/m1.png')}/>
-                        </Col> */}
                         <Col lg={{offset: 2, span: 6}} style={{fontSize: 20}}> 
                             <p className='aboutHeaderText'>
                                 Martin Spires is now regarded as the most successful and experienced Sales, Customer Service and Presentation Skills Trainer in the entirety of the Pacific Region.

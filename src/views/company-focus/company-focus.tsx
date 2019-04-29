@@ -16,40 +16,27 @@ export default class CompanyFocus extends React.Component {
         return (
             <div>
                 <Container fluid={true}>
-                    <Row style={{marginTop: 30}}>
-                        <Col lg={{span: 6, offset: 3}}>
+                    <Row style={{marginTop: 25}}>
+                        <Col lg={{span: 6, offset: 2}}>
                             <TitleComponent title="Company Focus" alignment='left' hrColor='black'/> 
                         </Col>
                     </Row>
-                    <Row style={{marginTop: 20}}>
-                        <Col xl={{span: 6, offset: 3}}>
-                            <div style={{marginTop: 30}}>
-                                <p className='secondaryText' style={{fontSize: 23}}>
+                    <Row style={{marginTop: 30}}>
+                        <Col xl={{span: 6, offset: 2}}>
+                            <div>
+                                <p className='banner' style={{fontSize: 23}}>
                                     Sales Development Programs Ltd provides training solutions to assist its customers to:
                                 </p>
                             </div> 
                         </Col>
                     </Row>
                     <Row> 
-                        <Col xl={{span:6, offset:3}}>
+                        <Col xl={{span: 6, offset: 2}}>
                             <hr style={{backgroundColor: '#1976d3'}}/>
-                        </Col>
-                    </Row>
-                    <SolutionBulletComponent firstBullet={b8} secondBullet={b9} thirdBullet={b3}/>
-                    <Row> 
-                        <Col xl={{span:6, offset:3}}>
+                            <SolutionBulletComponent firstBullet={b8} secondBullet={b9} thirdBullet={b3}/>
                             <hr style={{backgroundColor: '#1976d3'}}/>
-                        </Col>
-                    </Row>
-                    <SolutionBulletComponent firstBullet={b4} secondBullet={b5} thirdBullet={b6}/>
-                    <Row> 
-                        <Col xl={{span:6, offset:3}}>
+                            <SolutionBulletComponent firstBullet={b4} secondBullet={b5} thirdBullet={b6}/>
                             <hr style={{backgroundColor: '#1976d3'}}/>
-                        </Col>
-                    </Row>
-                    
-                    <Row>
-                        <Col xl={{span:6, offset:3}} className="singleBullet"> 
                             <div>
                                 <ul className="listStyle">
                                     <li className="bulletText">
@@ -59,10 +46,6 @@ export default class CompanyFocus extends React.Component {
                                     </li>
                                 </ul>
                             </div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col xl={{span:6, offset:3}} className="singleBullet"> 
                             <div>
                                 <ul className="listStyle">
                                     <li className="bulletText">
@@ -72,11 +55,6 @@ export default class CompanyFocus extends React.Component {
                                     </li>
                                 </ul>
                             </div>
-                        </Col>
-                    </Row>
-                   
-                    <Row>
-                        <Col xl={{span:6, offset:3}} className="singleBullet"> 
                             <div>
                                 <ul className="listStyle">
                                     <li className="bulletText">
@@ -86,10 +64,7 @@ export default class CompanyFocus extends React.Component {
                                     </li>
                                 </ul>
                             </div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col xl={{span:6, offset:3}} className="singleBullet"> 
+                            <hr style={{backgroundColor: '#1976d3'}}/>
                             <div>
                                 <ul className="listStyle">
                                     <li className="bulletText">
@@ -100,14 +75,12 @@ export default class CompanyFocus extends React.Component {
                                 </ul>
                             </div>
                         </Col>
-                    </Row>
-                    <Row> 
-                        <Col xl={{span:6, offset:3}}>
-                            <hr style={{backgroundColor: '#1976d3'}}/>
+                        <Col xl={3}> 
+                            <img src={require('../../assets/images/m5.jpg')}/>
+                            <img src={require('../../assets/images/m6.jpg')}/>
+                            
                         </Col>
                     </Row>
-                    
-                    
                 </Container>   
                 <div className="areaContainer">
                     <Container>

@@ -12,7 +12,7 @@ export default class Testimonials extends React.Component {
         return (
             <div>
                 <Container fluid={true}>
-                    <Row style={{marginTop: 20}}>
+                    <Row style={{marginTop: 25}}>
                         <Col lg={{offset: 2, span: 8}}>
                             <TitleComponent title="Testimonials" alignment='left' hrColor='black'/> 
                         </Col>
