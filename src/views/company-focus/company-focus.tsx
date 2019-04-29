@@ -170,8 +170,8 @@ export default class CompanyFocus extends React.Component {
                                 <Col sm={6} md={6} lg={3}>
                                     <LogoComponent logoPath='dbs' logoText='DBS Bank'/>
                                 </Col>
-                                <Col sm={6} md={6} lg={3}>
-                                    <LogoComponent logoPath='volvo' logoText='Volvo Cars'/>
+                                <Col sm={6} md={4} lg={3}>
+                                    <LogoComponent logoPath='ocbc' logoText='OCBC Bank'/>
                                 </Col>
                             </Row> 
                         </div>
@@ -182,6 +182,12 @@ export default class CompanyFocus extends React.Component {
                                 </Col>
                                 <Col sm={6} md={4} lg={3}>
                                     <LogoComponent logoPath='ncr' logoText='NCR Corporation'/>
+                                </Col>
+                                <Col sm={6} md={4} lg={3}>
+                                    <LogoComponent logoPath='omron' logoText='Omron'/>
+                                </Col>
+                                <Col sm={6} md={6} lg={3}>
+                                    <LogoComponent logoPath='volvo' logoText='Volvo Cars'/>
                                 </Col>
                             </Row> 
                         </div>
@@ -214,9 +220,7 @@ export default class CompanyFocus extends React.Component {
                                         <li className="extraCompanyText"> 
                                             <span style={{fontSize: 25, color: '#1976d3'}}>-</span> Baker Oil Tools
                                         </li>
-                                        <li className="extraCompanyText"> 
-                                            <span style={{fontSize: 25, color: '#1976d3'}}>-</span> Flowserve
-                                        </li>
+                                        
                                     </ul>
                                 </Col>
                                 <Col md={6} lg={4}> 
@@ -226,9 +230,6 @@ export default class CompanyFocus extends React.Component {
                                         </li>
                                         <li className="extraCompanyText"> 
                                             <span style={{fontSize: 25, color: '#1976d3'}}>-</span> Atlas Copco
-                                        </li>
-                                        <li className="extraCompanyText"> 
-                                            <span style={{fontSize: 25, color: '#1976d3'}}>-</span> Omron
                                         </li>
                                         <li className="extraCompanyText"> 
                                             <span style={{fontSize: 25, color: '#1976d3'}}>-</span> Yokogawa
@@ -245,6 +246,9 @@ export default class CompanyFocus extends React.Component {
                                         <li className="extraCompanyText"> 
                                             <span style={{fontSize: 25, color: '#1976d3'}}>-</span> MTU
                                         </li>
+                                        <li className="extraCompanyText"> 
+                                            <span style={{fontSize: 25, color: '#1976d3'}}>-</span> WR Grace
+                                        </li>
                                     </ul>
                                 </Col>
                                 <Col md={6} lg={4}> 
@@ -254,9 +258,6 @@ export default class CompanyFocus extends React.Component {
                                         </li>
                                         <li className="extraCompanyText"> 
                                             <span style={{fontSize: 25, color: '#1976d3'}}>-</span> Ingersoll Rand
-                                        </li>
-                                        <li className="extraCompanyText"> 
-                                            <span style={{fontSize: 25, color: '#1976d3'}}>-</span> OCBC
                                         </li>
                                         <li className="extraCompanyText"> 
                                             <span style={{fontSize: 25, color: '#1976d3'}}>-</span> Schlumberger
@@ -271,12 +272,11 @@ export default class CompanyFocus extends React.Component {
                                             <span style={{fontSize: 25, color: '#1976d3'}}>-</span> Abacus International
                                         </li>
                                         <li className="extraCompanyText"> 
-                                            <span style={{fontSize: 25, color: '#1976d3'}}>-</span> WR Grace
-                                        </li>
-                                        <li className="extraCompanyText"> 
                                             <span style={{fontSize: 25, color: '#1976d3'}}>-</span> Sumitomo
                                         </li>
-                                        
+                                        <li className="extraCompanyText"> 
+                                            <span style={{fontSize: 25, color: '#1976d3'}}>-</span> Flowserve
+                                        </li>
                                     </ul>
                                 </Col>
                             </Row>
