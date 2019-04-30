@@ -25,14 +25,13 @@ export default class CompanyFocus extends React.Component {
                         <Col xl={{span: 6, offset: 2}}>
                             <div>
                                 <p className='banner' style={{fontSize: 23}}>
-                                    Sales Development Programs Ltd provides training solutions to assist its customers to:
+                                    Sales Development Programs Ltd provides <span className="trainingSolutions">training solutions</span> to assist its customers to:
                                 </p>
                             </div> 
                         </Col>
                     </Row>
                     <Row> 
                         <Col xl={{span: 6, offset: 2}}>
-                            <hr style={{backgroundColor: '#1976d3'}}/>
                             <SolutionBulletComponent firstBullet={b8} secondBullet={b9} thirdBullet={b3}/>
                             <hr style={{backgroundColor: '#1976d3'}}/>
                             <SolutionBulletComponent firstBullet={b4} secondBullet={b5} thirdBullet={b6}/>
@@ -44,19 +43,11 @@ export default class CompanyFocus extends React.Component {
                                             {b1}
                                         </span>
                                     </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <ul className="listStyle">
                                     <li className="bulletText">
                                         <span>
                                            {b2}     
                                         </span>
                                     </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <ul className="listStyle">
                                     <li className="bulletText">
                                         <span>
                                             {b7}
@@ -78,7 +69,6 @@ export default class CompanyFocus extends React.Component {
                         <Col xl={3}> 
                             <img src={require('../../assets/images/m5.jpg')}/>
                             <img src={require('../../assets/images/m6.jpg')}/>
-                            
                         </Col>
                     </Row>
                 </Container>   

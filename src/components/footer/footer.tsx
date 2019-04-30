@@ -16,31 +16,47 @@ export class FooterComponent extends React.Component {
                         <Row style={{paddingTop: 30}}> 
                             <Col lg={{offset: 1, span: 2}} sm={6}> 
                                 <div>
-                                <NavLink to="/home">
-                                    <p style={{color: 'white'}}>
-                                    Sales Development Programs Ltd
-                                    </p>
-                                </NavLink> 
+                                    <NavLink to="/home">
+                                        <p style={{color: 'white'}}>
+                                        Sales Development Programs Ltd
+                                        </p>
+                                    </NavLink> 
+                                </div>
+                            </Col>
+                            <Col lg={2} sm={6}> 
+                               <div>
+                                    <NavLink to="/company-focus">
+                                        <p style={{color: 'white'}}>
+                                            Company Focus
+                                        </p>
+                                    </NavLink> 
                                 </div>
                             </Col>
                             <Col lg={2} sm={6}> 
                                 <div>
-                                    <p>Company Focus</p>
+                                    <NavLink to="/about-martin-spires">
+                                        <p style={{color: 'white'}}>
+                                            About Martin Spires
+                                        </p>
+                                    </NavLink> 
                                 </div>
                             </Col>
                             <Col lg={2} sm={6}> 
                                 <div>
-                                    <p>About Martin Spires</p>
+                                    <NavLink to="/testimonials">
+                                        <p style={{color: 'white'}}>
+                                            Testimonials
+                                        </p>
+                                    </NavLink> 
                                 </div>
                             </Col>
                             <Col lg={2} sm={6}> 
                                 <div>
-                                    <p>Testiomonials</p>
-                                </div>
-                            </Col>
-                            <Col lg={2} sm={6}> 
-                                <div>
-                                    <p>Enquiries</p>
+                                    <NavLink to="/contact">
+                                        <p style={{color: 'white'}}>
+                                            Enquiries
+                                        </p>
+                                    </NavLink> 
                                 </div>
                             </Col>
                         </Row>
