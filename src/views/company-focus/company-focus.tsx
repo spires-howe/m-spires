@@ -27,6 +27,7 @@ export default class CompanyFocus extends React.Component {
                                 <p className='banner' style={{fontSize: 23}}>
                                     Sales Development Programs Ltd provides <span className="trainingSolutions">training solutions</span> to assist its customers to:
                                 </p>
+                                <hr />
                             </div> 
                         </Col>
                     </Row>
