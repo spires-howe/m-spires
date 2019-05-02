@@ -27,8 +27,7 @@ class App extends React.Component<Props> {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse>
               <Nav className="ml-auto" style={{marginRight: 40}}>
-                {/* <NavRouting routePath='/home' routeText='Home'/> */}
-                <NavRouting routePath='/company-focus' routeText='Company Focus'/>
+                <NavRouting routePath='/about' routeText='Company Focus'/>
                 <NavRouting routePath='/about-martin-spires' routeText='Martin Spires'/>             
                 <NavRouting routePath='/testimonials' routeText='Testiomonials'/>
                 <NavRouting routePath='/contact' routeText='Enquiries'/>                    
@@ -40,7 +39,7 @@ class App extends React.Component<Props> {
               <Redirect to="/home"/>              
             )} />
               <Route path="/home/" component={HomeComponent} />
-              <Route path="/company-focus/" component={CompanyFocus}/>
+              <Route path="/about/" component={CompanyFocus}/>
               <Route path="/about-martin-spires/" component={AboutComponent} />
               <Route path="/testimonials/" component={Testimonials}/>
               <Route path="/contact/" component={Contact}/>
