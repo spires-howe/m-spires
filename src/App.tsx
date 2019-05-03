@@ -22,9 +22,9 @@ class App extends React.Component<Props> {
           <div> 
             <Navbar bg="light" expand="lg" sticky='top' >
             <Nav>
-                <Link to="/" style={{fontSize: '1.5em', marginLeft: 40}}>Sales Development Programs Ltd</Link>
+                <Link to="/" style={{fontSize: '1.5em', marginLeft: 40, textAlign: 'left'}}>Sales Development Programs Ltd</Link>
             </Nav>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Toggle aria-controls="basic-navbar-nav" style={{marginLeft: 40}}/>
               <Navbar.Collapse>
               <Nav className="ml-auto" style={{marginRight: 40}}>
                 <NavRouting routePath='/about' routeText='Company Focus'/>

@@ -124,7 +124,7 @@ export default class CompanyFocus extends React.Component {
                 </div>
                 <div>
                     <Container>
-                        <Row style={{marginTop: 20}}>
+                        <Row style={{marginTop: 40}}>
                             <Col lg={true}>
                                 <TitleComponent title="track record" hrColor='black' alignment='left'/>
                             </Col> 
