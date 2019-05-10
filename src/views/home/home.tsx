@@ -41,7 +41,7 @@ render() {
                         <div className="bannerBorder">
                             <p className="descriptionText">
                                 Sales Development Programs Ltd was incorporated in Singapore in June 1984. The founder of the company was 
-                                <NavLink to="/about-martin-spires" style={{fontSize: 22, marginLeft: 5, marginRight: 5, color: '#1976d3', textDecoration: 'underline'}}>
+                                <NavLink to="/about-martin-spires" style={{fontSize: 30, marginLeft: 5, marginRight: 5, color: '#1976d3', textDecoration: 'underline'}}>
                                      Martin Spires
                                 </NavLink>
                                 who is the principal trainer within the organization.
