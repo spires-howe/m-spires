@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row'; 
-import Col from 'react-bootstrap/Col'; 
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image'; 
 import './home.css';
 import { BrowserRouter as Router, Route, Link, withRouter, NavLink, Redirect, RouteComponentProps } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
+import Avatar from '@material-ui/core/Avatar';
  
 export class HomeComponent extends React.Component {
 render() {
@@ -15,7 +17,10 @@ render() {
               <Row>
                 <Col lg={4} className='homeColumn'>
                     <div className='imageContainer'>
-                        <div style={{marginTop: 300}}>
+                        <div className="imageContentContainer">
+                            <div className="profileContainer">
+                                <Avatar alt="Martin Spires" src={require('../../assets/images/m11.png')} className="bigAvatar" style={{height: 207, width: 200, backgroundColor: 'white', textAlign: 'center'}}/>
+                            </div>
                             <p className="brandText">
                                 Sales Development Programs Ltd
                             </p> 
@@ -26,6 +31,7 @@ render() {
                             <p className="homeSecondary">
                                 martin@martinspires.co.nz
                             </p>
+                            
                         </div>
                     </div>  
                   
@@ -48,12 +54,12 @@ render() {
                     </div>
                     <ButtonToolbar style={{paddingLeft: 10, marginBottom: 20}}>
                         <NavLink to="/about">
-                            <Button variant="outline-primary">Learn More</Button>
+                            <Button variant="outline-primary" style={{fontSize: 25}}>Learn More</Button>
                         </NavLink>
                         <NavLink to="/contact"> 
-                            <Button variant="outline-primary" style={{marginLeft: 20}}>Enquiries</Button>
+                            <Button variant="outline-primary" style={{marginLeft: 20, fontSize: 25}}>Enquiries</Button>
                         </NavLink>
-                    </ButtonToolbar>
+                    </ButtonToolbar>                    
                 </Col>
               </Row>
           </Container>          

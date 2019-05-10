@@ -3,6 +3,10 @@
     padding-right: 0px;
 }
 
+.homePageImage {
+    border-radius: 100%;
+}
+
 .imageContainer {
     text-align: center;
     height: 100%;
@@ -10,12 +14,16 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    min-height: 94.3vh;
+    min-height: 94vh;
     -webkit-box-shadow: 10px 0px 24px -9px rgba(46,41,46,1);
     -moz-box-shadow: 10px 0px 24px -9px rgba(46,41,46,1);
     box-shadow: 10px 0px 24px -9px rgba(46,41,46,1);
     background-color: #1976d3;
     
+}
+
+.imageContentContainer {
+    margin-top: calc(94vh / 4);
 }
 
 .brandText {
@@ -39,9 +47,9 @@
   }
 
 @media screen and (max-width: 230px) {
-p.brandText {
-    font-size: 20px;
-}
+    p.brandText {
+        font-size: 20px;
+    }
 }
 
 
@@ -53,7 +61,7 @@ p.brandText {
 
 
 .descriptionContainer {
-    margin-top: 300px;
+    margin-top: calc(94vh / 3);
     padding-left: 10px;
 }
 
@@ -64,10 +72,18 @@ p.brandText {
     }
 
 .descriptionText {
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .bannerBorder {
     border-left: 6px solid #1976d3;
     padding-left: 20px;
+}
+
+.MuiAvatar-img-3 {
+    width: 90% !important;
+}
+
+.profileContainer {
+    margin-left: calc(50% - 90px)
 }
