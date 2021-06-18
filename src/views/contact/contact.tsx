@@ -29,7 +29,7 @@ export default class Contact extends React.Component {
                             </div>
                         </Col>
                     </Row>
-                    <Row style={{marginTop: 20}}>
+                    {/* <Row style={{marginTop: 20}}>
                         <Col lg={{span: 6, offset: 2}}>
                         <div>
                             <div>   
@@ -38,7 +38,7 @@ export default class Contact extends React.Component {
                         </div>
                             <EmailComponent />
                         </Col>
-                    </Row>
+                    </Row> */}
                 </Container>
                 <FooterComponent />
             </div>
