@@ -40,7 +40,7 @@ render() {
                     <div className='descriptionContainer'>
                         <div className="bannerBorder">
                             <p className="descriptionText">
-                                Sales Development Programs Ltd was incorporated in Singapore in June 1984. The founder of the company was 
+                                Sales Development Programs Ltd was incorporated in Singapore in June 1984. The founder of the company is 
                                 <NavLink to="/about-martin-spires" style={{fontSize: 30, marginLeft: 5, marginRight: 5, color: '#1976d3', textDecoration: 'underline'}}>
                                      Martin Spires
                                 </NavLink>

@@ -29,7 +29,7 @@ class App extends React.Component<Props> {
               <Nav className="ml-auto" style={{marginRight: 40}}>
                 <NavRouting routePath='/about' routeText='Company Focus'/>
                 <NavRouting routePath='/about-martin-spires' routeText='Martin Spires'/>             
-                <NavRouting routePath='/testimonials' routeText='Testiomonials'/>
+                <NavRouting routePath='/testimonials' routeText='Testimonials'/>
                 <NavRouting routePath='/contact' routeText='Enquiries'/>                    
                                     
               </Nav>
