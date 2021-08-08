@@ -19,7 +19,7 @@ render() {
                     <div className='imageContainer'>
                         <div className="imageContentContainer">
                             <div className="profileContainer">
-                                <Avatar alt="Martin Spires" src={require('../../assets/images/m11.png')} className="bigAvatar" style={{height: 207, width: 200, backgroundColor: 'white', textAlign: 'center'}}/>
+                                <Avatar alt="Martin Spires" src={require('../../assets/images/m11.jpg')} className="bigAvatar" style={{height: 207, width: 200, backgroundColor: 'white', textAlign: 'center'}}/>
                             </div>
                             <p className="brandText">
                                 Sales Development Programs Ltd

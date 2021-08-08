@@ -25,41 +25,41 @@ export default class Testimonials extends React.Component {
                             </p>
                         </Col>
                         <Col sm={6} lg={2}>
-                            <ModalImage small={require('../../assets/images/pepper.jpg')} large={require('../../assets/images/pepper.jpg')} className="smallImage"/>
+                            <ModalImage small={require('../../assets/images/mapei.jpg')} large={require('../../assets/images/mapei.jpg')} className="smallImage"/>
                             <p className="imageText">
-                                PEPPERL+FUCHS
+                                Mapei
                             </p>
                         </Col>
                         <Col sm={6} lg={2}>
-                            <ModalImage small={require('../../assets/images/poly.jpg')} large={require('../../assets/images/poly.jpg')} className="smallImage"/>
+                            <ModalImage small={require('../../assets/images/stiles.jpg')} large={require('../../assets/images/stiles.jpg')} className="smallImage"/>
                             <p className="imageText">
-                                James Halstead Flooring
+                                Stiles Machinery
                             </p>
                         </Col>
                         <Col sm={6} lg={2}>
-                            <ModalImage small={require('../../assets/images/homag.jpg')} large={require('../../assets/images/homag.jpg')} className="smallImage"/>
+                            <ModalImage small={require('../../assets/images/hella.jpg')} large={require('../../assets/images/hella.jpg')} className="smallImage"/>
                             <p className="imageText">
-                                Homag Canada
+                                Hella
                             </p>
                         </Col>
                     </Row>
                     <Row className="imageRow"> 
                         <Col sm={6} lg={{span: 2, offset: 2}}>
-                            <ModalImage small={require('../../assets/images/granite.jpg')} large={require('../../assets/images/granite.jpg')} className="smallImage"/>
+                            <ModalImage small={require('../../assets/images/altex.jpg')} large={require('../../assets/images/altex.jpg')} className="smallImage"/>
                             <p className="imageText"> 
-                                Granite Services International
+                                Altex Coatings
                             </p>
                         </Col>
                         <Col sm={6} lg={2}>
-                            <ModalImage small={require('../../assets/images/etl.jpg')} large={require('../../assets/images/etl.jpg')} className="smallImage"/>
+                            <ModalImage small={require('../../assets/images/gea-new.jpg')} large={require('../../assets/images/gea-new.jpg')} className="smallImage"/>
                             <p className="imageText">
-                                ETEL Transformers
+                                GEA
                             </p>
                         </Col>
                         <Col sm={6} lg={2}>
-                            <ModalImage small={require('../../assets/images/bsb.jpg')} large={require('../../assets/images/bsb.jpg')} className="smallImage"/>
+                            <ModalImage small={require('../../assets/images/atlas.jpg')} large={require('../../assets/images/atlas.jpg')} className="smallImage"/>
                             <p className="imageText">
-                                BS&B Safety Systems
+                                Atlas Concrete
                             </p>
                         </Col>
                         <Col sm={6} lg={2}>
@@ -70,11 +70,17 @@ export default class Testimonials extends React.Component {
                         </Col>
                     </Row>
                     <Row className="imageRow">
-                        <Col lg={{offset: 2, span: 2}}>
-                            <ModalImage small={require('../../assets/images/sika.jpg')} large={require('../../assets/images/sika.jpg')} className="smallImage"/>
+                        <Col sm={6} lg={{offset: 2, span: 2}}>
+                            <ModalImage small={require('../../assets/images/nda.jpg')} large={require('../../assets/images/nda.jpg')} className="smallImage"/>
                                 <p className="imageText">
-                                    SIKA NZ 
+                                    NDA Engineering
                                 </p>
+                        </Col>
+                        <Col sm={6} lg={2}>
+                            <ModalImage small={require('../../assets/images/jacks.jpg')} large={require('../../assets/images/jacks.jpg')} className="smallImage"/>
+                            <p className="imageText">
+                                Jacks
+                            </p>
                         </Col>
                     </Row>
 
