@@ -19,15 +19,9 @@ export default class Testimonials extends React.Component {
                     </Row>
                     <Row className="imageRow" style={{marginTop: 30}}> 
                         <Col sm={6} lg={{span: 2, offset: 2}}>
-                            <ModalImage small={require('../../assets/images/buildtrust.jpg')} large={require('../../assets/images/buildtrust.jpg')} className="smallImage"/>
+                        <ModalImage small={require('../../assets/images/buildtrust.jpg')} large={require('../../assets/images/buildtrust.jpg')} className="smallImage"/>
                             <p className="imageText">
-                                GEA Mechanical Equipment
-                            </p>
-                        </Col>
-                        <Col sm={6} lg={{span: 2, offset: 2}}>
-                            <ModalImage small={require('../../assets/images/GEA.jpg')} large={require('../../assets/images/GEA.jpg')} className="smallImage"/>
-                            <p className="imageText">
-                                GEA Mechanical Equipment
+                                Building Trust
                             </p>
                         </Col>
                         <Col sm={6} lg={2}>
