@@ -21,7 +21,7 @@ export default class Testimonials extends React.Component {
                         <Col sm={6} lg={{span: 2, offset: 2}}>
                         <ModalImage small={require('../../assets/images/buildtrust.jpg')} large={require('../../assets/images/buildtrust.jpg')} className="smallImage"/>
                             <p className="imageText">
-                                Building Trust
+                                Sika
                             </p>
                         </Col>
                         <Col sm={6} lg={2}>
